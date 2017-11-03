@@ -13,6 +13,7 @@
 		3A6E8FC71FACE319002F3976 /* Traveler_Hunt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A6E8FC51FACE319002F3976 /* Traveler_Hunt.xcdatamodeld */; };
 		3A6E8FC91FACE319002F3976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6E8FC81FACE319002F3976 /* Assets.xcassets */; };
 		3A6E8FCC1FACE319002F3976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6E8FCA1FACE319002F3976 /* LaunchScreen.storyboard */; };
+		3A6E8FD41FACE41F002F3976 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3A6E8FD31FACE41F002F3976 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3A6E8FC81FACE319002F3976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A6E8FCB1FACE319002F3976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A6E8FCD1FACE319002F3976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A6E8FD31FACE41F002F3976 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		3A6E8FB21FACE319002F3976 = {
 			isa = PBXGroup;
 			children = (
+				3A6E8FD31FACE41F002F3976 /* .gitignore */,
 				3A6E8FBD1FACE319002F3976 /* Traveler Hunt */,
 				3A6E8FBC1FACE319002F3976 /* Products */,
 			);
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A6E8FD41FACE41F002F3976 /* .gitignore in Resources */,
 				3A6E8FCC1FACE319002F3976 /* LaunchScreen.storyboard in Resources */,
 				3A6E8FC91FACE319002F3976 /* Assets.xcassets in Resources */,
 				3A6E8FC41FACE319002F3976 /* Main.storyboard in Resources */,
@@ -279,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PUS7FQ6G2Y;
 				INFOPLIST_FILE = "Traveler Hunt/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cse310.Traveler-Hunt";
@@ -293,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PUS7FQ6G2Y;
 				INFOPLIST_FILE = "Traveler Hunt/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cse310.Traveler-Hunt";
